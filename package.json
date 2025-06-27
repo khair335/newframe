@@ -6,7 +6,6 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "build:squarespace": "vite build && node scripts/create-squarespace-build.js",
     "lint": "eslint .",
     "preview": "vite preview"
   },
