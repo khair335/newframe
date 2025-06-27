@@ -9,9 +9,9 @@ function App() {
   return (
     <>
       <div className='section-container'>
-        <h1>Hello</h1>
+        {/* <h1>Hello</h1> */}
 
-        {/* <div className='section-title-container'>
+        <div className='section-title-container'>
           <h5 className='section-title'>Card stacks have never
             <br />
             looked so good</h5>
@@ -78,7 +78,7 @@ function App() {
           <div>
 
           </div>
-        </div> */}
+        </div>
       </div>
     </>
   )
