@@ -1,5 +1,3 @@
-
-
 import CardSwap, { Card } from '../ReactBits/CardSwap/CardSwap'
 import '../ReactBits/CardSwap/CardSwap.css'
 import './App.css'
@@ -9,15 +7,14 @@ function App() {
   return (
     <>
       <div className='section-container'>
-        {/* <h1>Hello</h1> */}
+      {/* left side */}
 
         <div className='section-title-container'>
-          <h5 className='section-title'>Card stacks have never
-            <br />
-            looked so good</h5>
-          <p className='section-description'>Just look at it go!</p>
+          <div className='section-title-gradient-bar'></div>
+          <h1 className='section-title'>RESIDENT_LINK</h1>
+          <p className='section-description'>Join us for a new kind of neighborhood</p>
         </div>
-
+{/* left side */}
         <div style={{ position: 'relative', }}>
           <CardSwap
             cardDistance={60}
