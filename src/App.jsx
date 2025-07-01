@@ -19,7 +19,7 @@ function App() {
           <CardSwap
             cardDistance={60}
             verticalDistance={70}
-            delay={1000}
+            delay={5000}
             pauseOnHover={true}
           >
             <Card>
