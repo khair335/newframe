@@ -1,6 +1,6 @@
-html, body, #root {
+/* html, body, #root {
   background: transparent !important;
-}
+} */
 
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -9,7 +9,10 @@ html, body, #root {
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: transparent;
+  background-image: url('https://static1.squarespace.com/static/683b03ee8b09385960cb07fd/t/68662548e5138d4ce94f5f18/1751524687015/section-1-hero-bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
