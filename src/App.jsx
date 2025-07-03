@@ -10,9 +10,7 @@ function App() {
       {/* left side */}
 
         <div className='section-title-container'>
-          <div className='section-title-gradient-bar'></div>
-          <h1 className='section-title'>RESIDENT_LINK</h1>
-          <p className='section-description'>Join us for a new kind of neighborhood</p>
+
         </div>
 {/* left side */}
         <div style={{ position: 'relative', }}>
