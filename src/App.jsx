@@ -1,8 +1,13 @@
 import CardSwap, { Card } from '../ReactBits/CardSwap/CardSwap'
 import '../ReactBits/CardSwap/CardSwap.css'
 import './App.css'
-function App() {
+import { MdCode, MdVisibility, MdTouchApp, MdTrendingUp } from 'react-icons/md'
 
+function App() {
+  // https://static1.squarespace.com/static/683b03ee8b09385960cb07fd/t/686a81bb03589e0bf565642c/1751810556421/slider1.png
+  // https://static1.squarespace.com/static/683b03ee8b09385960cb07fd/t/686a81bbae533714b93549d1/1751810552753/slider2.png
+  // https://static1.squarespace.com/static/683b03ee8b09385960cb07fd/t/686a81bb0ed18d4153903760/1751810556846/slider3.png
+  // https://static1.squarespace.com/static/683b03ee8b09385960cb07fd/t/686a81bb2e263036646ef348/1751810548865/slider4.png
 
   return (
     <>
@@ -23,48 +28,56 @@ function App() {
             <Card>
               <div className='card-container'>
                 <div className='card-header'>
-                  <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 640 512" focusable="false" aria-hidden="true" class="chakra-icon css-l7obvg" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z"></path></svg>
-                  <p className='card-header-text'>Smooth</p>
+                  <MdCode />
+                  <p className='card-header-text'>Participatory</p>
                 </div>
                 <div className='card-body'>
-                  <video
-                    autoPlay
-                    loop
-                    muted
-                    playsInline
-                    className='card-video' src="https://cdn.dribbble.com/userupload/7053861/file/original-7956be57144058795db6bb24875bdab9.mp4"></video>
+                  <img
+
+                    className='card-video' src="https://static1.squarespace.com/static/683b03ee8b09385960cb07fd/t/686a81bb03589e0bf565642c/1751810556421/slider1.png"/>
                 </div>
               </div>
             </Card>
             <Card>
               <div className='card-container'>
                 <div className='card-header'>
-                  <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" focusable="false" aria-hidden="true" class="chakra-icon css-l7obvg" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M0 416c0 17.7 14.3 32 32 32l54.7 0c12.3 28.3 40.5 48 73.3 48s61-19.7 73.3-48L480 448c17.7 0 32-14.3 32-32s-14.3-32-32-32l-246.7 0c-12.3-28.3-40.5-48-73.3-48s-61 19.7-73.3 48L32 384c-17.7 0-32 14.3-32 32zm128 0a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zM320 256a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zm32-80c-32.8 0-61 19.7-73.3 48L32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l246.7 0c12.3 28.3 40.5 48 73.3 48s61-19.7 73.3-48l54.7 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-54.7 0c-12.3-28.3-40.5-48-73.3-48zM192 128a32 32 0 1 1 0-64 32 32 0 1 1 0 64zm73.3-64C253 35.7 224.8 16 192 16s-61 19.7-73.3 48L32 64C14.3 64 0 78.3 0 96s14.3 32 32 32l86.7 0c12.3 28.3 40.5 48 73.3 48s61-19.7 73.3-48L480 128c17.7 0 32-14.3 32-32s-14.3-32-32-32L265.3 64z"></path></svg>
-                  <p className='card-header-text'>Reliable</p>
+                  <MdVisibility />
+                  <p className='card-header-text'>Transparent</p>
                 </div>
                 <div className='card-body'>
-                  <video
-                    autoPlay
-                    loop
-                    muted
-                    playsInline
-                    className='card-video' src="https://cdn.dribbble.com/userupload/7078020/file/original-b071e9063d9e3ba86a85a61b9d5a7c42.mp4"></video>
+                  <img
+
+                    className='card-video' src="https://static1.squarespace.com/static/683b03ee8b09385960cb07fd/t/686a81bbae533714b93549d1/1751810552753/slider2.png"/>
                 </div>
               </div>
             </Card>
             <Card>
               <div className='card-container'>
                 <div className='card-header'>
-                  <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" focusable="false" aria-hidden="true" class="chakra-icon css-l7obvg" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512z"></path></svg>
-                  <p className='card-header-text'>Secure</p>
+                  <MdTouchApp />
+                  <p className='card-header-text'>Interactive</p>
                 </div>
                 <div className='card-body'>
-                  <video
+                  <img
                     autoPlay
                     loop
                     muted
                     playsInline
-                    className='card-video' src="https://cdn.dribbble.com/userupload/7098541/file/original-0b063b12ca835421580e6034368ad95a.mp4"></video>
+                    className='card-video' src="https://static1.squarespace.com/static/683b03ee8b09385960cb07fd/t/686a81bb0ed18d4153903760/1751810556846/slider3.png"/>
+
+                </div>
+              </div>
+            </Card>
+            <Card>
+              <div className='card-container'>
+                <div className='card-header'>
+                  <MdTrendingUp />
+                  <p className='card-header-text'>Scalable</p>
+                </div>
+                <div className='card-body'>
+                  <img
+
+                    className='card-video' src="https://static1.squarespace.com/static/683b03ee8b09385960cb07fd/t/686a81bb2e263036646ef348/1751810548865/slider4.png"/>
                 </div>
               </div>
             </Card>

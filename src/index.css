@@ -1,6 +1,48 @@
 /* html, body, #root {
   background: transparent !important;
 } */
+/* === Betm Font Faces - ISSUE 3: SIMPLE APPROACH (NO font-display: swap) === */
+@font-face {
+  font-family: 'Betm';
+  src: url('https://static1.squarespace.com/static/683b03ee8b09385960cb07fd/t/684305aa07002e79ba3bda1c/1749222827136/BetmExtraBlack.otf') format('opentype');
+  font-weight: 900;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: 'Betm';
+  src: url('https://static1.squarespace.com/static/683b03ee8b09385960cb07fd/t/684305ab248c7b3bd149097a/1749222827205/BetmBlack.otf') format('opentype');
+  font-weight: 800;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: 'Betm';
+  src: url('https://static1.squarespace.com/static/683b03ee8b09385960cb07fd/t/684305ab3d29a67a27935b8d/1749222827226/BetmBold.otf') format('opentype');
+  font-weight: 700;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: 'Betm';
+  src: url('https://static1.squarespace.com/static/683b03ee8b09385960cb07fd/t/684305ab81a6f5521ae7b83a/1749222827321/BetmMedium.otf') format('opentype');
+  font-weight: 500;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: 'Betm';
+  src: url('https://static1.squarespace.com/static/683b03ee8b09385960cb07fd/t/684305aba03e804e480e5f46/1749222827341/BetmSemiLight.otf') format('opentype');
+  font-weight: 300;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: 'Betm';
+  src: url('https://static1.squarespace.com/static/683b03ee8b09385960cb07fd/t/684305ab293d334b743dbffb/1749222827379/BetmSemiBold.otf') format('opentype');
+  font-weight: 600;
+  font-display: auto;
+}
 
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -9,10 +51,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-image: url('https://static1.squarespace.com/static/683b03ee8b09385960cb07fd/t/68662548e5138d4ce94f5f18/1751524687015/section-1-hero-bg.png');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  background-color: #F3E0D3 ;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -23,4 +62,6 @@
 
 body {
   overflow: hidden;
+    font-family: 'Betm', sans-serif;
+  font-weight: 800; /* Black */
 }

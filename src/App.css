@@ -22,8 +22,7 @@
   gap: 8px;
   padding: 8px;
   border-bottom: 1px solid rgb(255, 255, 255);
-  background: linear-gradient(to top, rgb(39, 30, 55), rgb(6, 6, 6));
-  --bg-currentcolor: linear-gradient(to top, #271E37, #060606);
+  background: #393932 ;
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
 }
@@ -38,6 +37,7 @@
 
 .card-body {
   padding: 8px;
+  background: #393932 ;
 }
 
 .card-video {
