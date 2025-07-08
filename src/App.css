@@ -117,14 +117,14 @@
     justify-content: flex-start;
 
     padding-right: 0;
-    min-height: 300px;
-        max-height: 300px;
+    min-height: 400px;
+        max-height: 400px;
 
 
   }
 
   .section-container>div {
-            height: 130px;
+            height: 165px;
         width: 100%;
   }
 }
