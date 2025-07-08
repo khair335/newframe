@@ -51,6 +51,9 @@
 
   color-scheme: auto;
   color: rgba(255, 255, 255, 0.87);
+  margin: 0;
+  width: 100%;
+  height: 100%;
 
 
 
@@ -65,4 +68,13 @@ body {
   overflow: hidden;
     font-family: 'Betm', sans-serif;
   font-weight: 800; /* Black */
+   margin: 0;
+  width: 100%;
+  height: 100%;
+}
+#root,
+html{
+   margin: 0;
+  width: 100%;
+  height: 100%;
 }
